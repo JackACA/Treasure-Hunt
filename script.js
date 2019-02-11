@@ -1,8 +1,8 @@
 $ (".button1") .click (function(){
-    $("p").text("双击") ;
+    $(".db").text("双击") ;
 });
 
-$ ("p").dblclick(function() {
+$ (".db").dblclick(function() {
     $(".img2").show();
 });
 
@@ -17,5 +17,5 @@ $(".img2").mouseleave(function(){
 $(".header").click(function(){
     $("div").hide("");
     $(".img3").show("");
-    $(".io").show("");
+    $(".io").show();
 });
