@@ -27,7 +27,7 @@ body {
         <div class="button1">
             <button> 点击我 </button>
         </div>
-        <p>   </p>
+        <p class="db">   </p>
          <div class="text1 hide">
             离开
         </div>
@@ -44,10 +44,10 @@ body {
 <script>
 /*__POPCODESTART__*/
 $ (".button1") .click (function(){
-    $("p").text("双击") ;
+    $(".db").text("双击") ;
 });
 
-$ ("p").dblclick(function() {
+$ (".db").dblclick(function() {
     $(".img2").show();
 });
 
@@ -62,5 +62,5 @@ $(".img2").mouseleave(function(){
 $(".header").click(function(){
     $("div").hide("");
     $(".img3").show("");
-    $(".io").show("");
+    $(".io").show();
 });</script></body></html>
