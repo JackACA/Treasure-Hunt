@@ -1,0 +1,13 @@
+img {
+    width: 500px;
+}
+.hide {
+    display: none;
+}
+body {
+    background-color: #71cce8;
+    text-align: center;
+}
+.io {
+    display: none;
+}
