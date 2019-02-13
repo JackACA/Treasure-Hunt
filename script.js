@@ -7,7 +7,7 @@ $ (".db").dblclick(function() {
 });
 
 $(".img2").mouseenter(function(){
-    $(".text1").toggle("双击");
+    $(".text1").fadeToggle("双击");
 });
 
 $(".img2").mouseleave(function(){
@@ -18,4 +18,7 @@ $(".header").click(function(){
     $("div").hide("");
     $(".img3").show("");
     $(".io").show();
+});
+$(".io").click(function(){
+    location.reload();
 });
